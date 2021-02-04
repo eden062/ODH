@@ -15,7 +15,7 @@ class Sandbox {
     }
 
     buildScriptURL(name) {
-        let gitbase = 'https://raw.githubusercontent.com/ninja33/ODH/master/src/dict/';
+        let gitbase = 'https://raw.githubusercontent.com/eden062/ODH/master/src/dict/';
         let url = name;
 
         //build remote script url with gitbase(https://) if prefix lib:// existing.
